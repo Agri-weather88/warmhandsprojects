@@ -1,0 +1,178 @@
+`html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Warm Hands Project</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1611162617213-7d7a7f3c9771?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0, 80, 40, 0.6);
+      z-index: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: rgba(0,100,50,0.7);
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+background-color: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 10px;
+      color: #333;
+      position: relative;
+      z-index: 1;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #2e7d32;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #256428;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      color: #ccc;
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Warm Hands Project</h1>
+  <p>Not Just Charity, Reparative Action</p>
+</header>
+
+<main>
+  <h2>About</h2>
+<p>Warm Hands Project is a youth-led humanitarian initiative committed to providing food, clothing, and emotional support to street children and underprivileged youth across Namibia. Founded by a young changemaker from Northern Namibia, it restores dignity and long-term support through community engagement.</p>
+
+  <h2>Regions Open for Application</h2>
+  <p>Zambezi • Kavango East • Kavango West • Ohangwena • Omusati • Oshana • Oshikoto • Otjozondjupa • Omaheke • Kunene • Khomas • Erongo • Hardap • //Kharas</p>
+
+  <h2>Requirements</h2>
+  <ul>
+    <li>✔ Must reside in the region you apply for</li>
+    <li>✔ Be available for monthly team check-ins, outreach, and events</li>
+    <li>✔ Commit to sustainable impact and community service</li>
+  </ul>
+
+  <h2>Deadline: 3 July 2025</h2>
+  <p><em>This isn’t just aid. This is accountability.</em></p>
+
+  <h2>Apply Now</h2>
+  <form action="https://formsubmit.co/hamutenyaroini4@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://thankyou-page.com">
+
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="Full Name" required>
+
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="Email" required>
+
+<label for="phone">Phone Number *</label>
+    <input type="tel" id="phone" name="Phone Number" required>
+
+    <label for="region">Region Applying For *</label>
+    <select id="region" name="Region" required>
+      <option value="">-- Select Region --</option>
+      <option>Zambezi</option>
+      <option>Kavango East</option>
+      <option>Kavango West</option>
+      <option>Ohangwena</option>
+      <option>Omusati</option>
+      <option>Oshana</option>
+      <option>Oshikoto</option>
+      <option>Otjozondjupa</option>
+      <option>Omaheke</option>
+      <option>Kunene</option>
+      <option>Khomas</option>
+      <option>Erongo</option>
+      <option>Hardap</option>
+      <option>//Kharas</option>
+    </select>
+
+    <label for="motivation">Why do you want to join? *</label>
+    <textarea id="motivation" name="Motivation" rows="5" required></textarea>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</main>
+
+<footer>
+  © 2025 Warm Hands Project. All rights reserved.
+</footer>
+
+</body>
+</html>
+```
+
+Let me know if you'd like me to package this as a ZIP for uploading to Netlify or another site.
